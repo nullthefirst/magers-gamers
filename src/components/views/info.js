@@ -30,13 +30,19 @@ export default class Info extends Component {
         <p>
           <span><em style={under}>Time:</em> 5pm</span>
         </p>
-        <div style={note}>
-          <p>
-            <span><em>Tickets Available for Sale AT Royals Cafeteria</em></span>
-          </p>
-          <p>
-            <span><em>Ticket Sales ends Friday, October 26th 2018</em></span>
-          </p>
+        <div style={note} class="container">
+          <div class="row">
+            <div className="col-md-4"><p> </p></div>
+            <div className="col-12 col-md-4">
+              <p>
+                <span><em>Tickets Available for Sale AT Royals Cafeteria</em></span>
+              </p>
+              <p>
+                <span><em>Ticket Sales ends Friday, October 26th 2018</em></span>
+              </p>
+            </div>
+            <div className="col-md-4"><p> </p></div>
+          </div>
         </div>
       </div>
     );
